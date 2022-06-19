@@ -7,9 +7,9 @@ const Sidebar = () => {
       <div className="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div className="sidebar-brand">
-            <a href="index.php">
+            <Link to="/">
               <img alt="" src="assets/img/logo.png" className="header-logo" />
-            </a>
+            </Link>
           </div>
           <ul id="sdm" className="sidebar-menu">
             <li className="menu-header">Main</li>
@@ -104,7 +104,7 @@ const Sidebar = () => {
               </a>
             </li>
             <li className="dropdown">
-              <a className="nav-link has-dropdown" href="Asales.php">
+              <Link className="nav-link has-dropdown" to="/saleschart">
                 <img
                   alt=""
                   src="assets/img/lefticon/analytics.png"
@@ -116,27 +116,27 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Analytics</span>
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="nav-link" href="Asales.php">
+                  <Link className="nav-link" to="/saleschart">
                     Sales
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="nav-link" href="Acar_charts.php">
+                  <Link className="nav-link" to="/carchart">
                     Cars
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="nav-link" href="Acust_charts.php">
+                  <Link className="nav-link" to="/customerchart">
                     Customers
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="">
-              <a className="nav-link" href="payment.php">
+              <Link to="/payment" className="nav-link">
                 <img
                   alt=""
                   src="assets/img/lefticon/payment.png"
@@ -148,10 +148,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Payments</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="deposit.php">
+              <Link to="/deposit" className="nav-link">
                 <img
                   alt=""
                   src="assets/img/lefticon/deposit.png"
@@ -163,10 +163,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Deposits</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="market.php">
+              <Link to="/marketing" className="nav-link">
                 <img
                   alt=""
                   src="assets/img/lefticon/market.png"
@@ -178,7 +178,7 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Marketing</span>
-              </a>
+              </Link>
             </li>
             <li className="">
               <Link className="nav-link" to="/referral">
