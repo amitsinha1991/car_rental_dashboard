@@ -29,7 +29,7 @@ const Sidebar = () => {
               </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="availMang.php">
+              <Link className="nav-link" to="/availability">
                 <img
                   alt=""
                   src="assets/img/lefticon/cald.png"
@@ -41,10 +41,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Availability</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="rides.php">
+              <Link className="nav-link" to="/rides">
                 <img
                   alt=""
                   src="assets/img/lefticon/ride.png"
@@ -56,10 +56,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Rides</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="garage.php">
+              <Link className="nav-link" to="/garage">
                 <img
                   alt=""
                   src="assets/img/lefticon/garage.png"
@@ -71,10 +71,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Garage</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="driver.php">
+              <Link className="nav-link" to="/driver">
                 <img
                   alt=""
                   src="assets/img/lefticon/driver.png"
@@ -86,10 +86,10 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Drivers</span>
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a className="nav-link" href="customer.php">
+              <Link className="nav-link" to="/customer">
                 <img
                   alt=""
                   src="assets/img/lefticon/customer.png"
@@ -101,7 +101,7 @@ const Sidebar = () => {
                   className="leftIcons"
                 />
                 <span>Customers</span>
-              </a>
+              </Link>
             </li>
             <li className="dropdown">
               <Link className="nav-link has-dropdown" to="/saleschart">

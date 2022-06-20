@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import $ from 'jquery'
+import $ from 'jquery'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Sidebar from '../Sidebar/Sidebar'
@@ -9,31 +9,31 @@ const Support = () => {
     // cara()
   })
 
-  //   const cara = () => {
-  //     $(document).ready(function () {
-  //       $('.owl-carousel').owlCarousel({
-  //         loop: true,
-  //         margin: 10,
-  //         responsiveclass: true,
-  //         responsive: {
-  //           0: {
-  //             items: 1,
-  //             nav: true,
-  //           },
-  //           600: {
-  //             items: 3,
-  //             nav: false,
-  //           },
-  //           1000: {
-  //             items: 3,
-  //             nav: true,
-  //             loop: false,
-  //             margin: 20,
-  //           },
-  //         },
-  //       })
-  //     })
-  //   }
+    
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          responsiveclass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true,
+            },
+            600: {
+              items: 3,
+              nav: false,
+            },
+            1000: {
+              items: 3,
+              nav: true,
+              loop: false,
+              margin: 20,
+            },
+          },
+        })
+      })
+  
 
   const css = `
   [data-simplebar] {
@@ -247,7 +247,7 @@ const Support = () => {
         <style>{css}</style>
       <Header />
       <Sidebar />
-      {/* <div className="main-content">
+      <div className="main-content">
         <section className="section">
           <div className="section-header">
             <h1>Support</h1>
@@ -410,7 +410,7 @@ const Support = () => {
                       data-simplebar="init"
                       style={{ maxHeight: '560px' }}
                     >
-                      <div className="simplebar-wrapper" style="margin: -24px;">
+                      <div className="simplebar-wrapper" style={{margin: "-24px"}}>
                         <div className="simplebar-height-auto-observer-wrapper">
                           <div className="simplebar-height-auto-observer"></div>
                         </div>
@@ -648,9 +648,7 @@ const Support = () => {
             </div>
           </div>
         </section>
-
-        <Footer />
-      </div> */}
+      </div>
       <Footer/>
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -91,12 +92,12 @@ const Header = () => {
 							  <span className="d-sm-none d-lg-inline-block"></span></a>
 							<div className="dropdown-menu dropdown-menu-right">
 							  <div className="dropdown-title">Hello Jessica Hill</div>
-							  <a href="profile.php" className="dropdown-item has-icon">
+							  <Link to="/profile" className="dropdown-item has-icon">
 								<i className="fa fa-user-alt"></i> Profile
-							  </a>
-							  <a href="manageAccess.php" className="dropdown-item has-icon">
+							  </Link>
+							  <Link to="/manage-access" className="dropdown-item has-icon">
 								<i className="fa fa-pen"></i> Manage Access
-							  </a>
+							  </Link>
 							  <div className="dropdown-divider"></div>
 							  <a href="#" className="dropdown-item has-icon text-danger">
 								<i className="fas fa-sign-out-alt"></i> Logout
