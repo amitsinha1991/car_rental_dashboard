@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
+import { Link } from 'react-router-dom'
 
 const Deposit = () => {
   const css = `
@@ -82,17 +83,17 @@ const Deposit = () => {
                             </div>
                           </td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>
@@ -176,40 +177,40 @@ const Deposit = () => {
                             className="paginate_button page-item previous disabled"
                             id="save-stage_previous"
                           >
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="0"
                               tabIndex="0"
                               className="page-link"
                             >
                               Previous
-                            </a>
+                            </Link>
                           </li>
                           <li className="paginate_button page-item active">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="1"
                               tabIndex="0"
                               className="page-link"
                             >
                               1
-                            </a>
+                            </Link>
                           </li>
                           <li
                             className="paginate_button page-item next disabled"
                             id="save-stage_next"
                           >
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="2"
                               tabIndex="0"
                               className="page-link"
                             >
                               Next
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -288,40 +289,40 @@ const Deposit = () => {
                             className="paginate_button page-item previous disabled"
                             id="save-stage_previous"
                           >
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="0"
                               tabIndex="0"
                               className="page-link"
                             >
                               Previous
-                            </a>
+                            </Link>
                           </li>
                           <li className="paginate_button page-item active">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="1"
                               tabIndex="0"
                               className="page-link"
                             >
                               1
-                            </a>
+                            </Link>
                           </li>
                           <li
                             className="paginate_button page-item next disabled"
                             id="save-stage_next"
                           >
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               aria-controls="save-stage"
                               data-dt-idx="2"
                               tabIndex="0"
                               className="page-link"
                             >
                               Next
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>

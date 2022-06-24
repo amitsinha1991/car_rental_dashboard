@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
    const css = `
@@ -1169,9 +1170,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1213,9 +1214,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1257,9 +1258,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1301,9 +1302,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1345,9 +1346,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1389,9 +1390,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1433,9 +1434,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1477,9 +1478,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>
@@ -1521,9 +1522,9 @@ const Home = () => {
                               <span>
                                 {' '}
                                 Lorem ipsum dolor sit amet, consectetur
-                                <a className="reviewBtn" href="review.php">
+                                <Link className="reviewBtn" to="/review">
                                   read more{' '}
-                                </a>
+                                </Link>
                               </span>
                             </div>
                           </div>

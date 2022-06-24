@@ -2,24 +2,25 @@ import React, { useEffect } from 'react'
 import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 const Review = () => {
   useEffect(() => {
-    // togReply()
-    // togReply1()
+    togReply()
+    togReply1()
   }, [])
 
-  //     function togReply()
-  //    {
-  //       var element = document.getElementById("postBox");
-  //       element.classList.toggle("boxOn");
-  //    }
+      function togReply()
+     {
+        var element = document.getElementById("postBox");
+        element.classList.toggle("boxOn");
+     }
 
-  //    function togReply1()
-  //    {
-  //       var element = document.getElementById("postBox1");
-  //       element.classList.toggle("boxOn");
-  //    }
+     function togReply1()
+     {
+        var element = document.getElementById("postBox1");
+        element.classList.toggle("boxOn");
+     }
 
   const css = `
   .sidebar-menu li:nth-child(13)
@@ -46,54 +47,54 @@ const Review = () => {
       <style>{css}</style>
       <Header />
       <Sidebar />
-      <div class="main-content">
-        <section class="section">
-          <div class="section-header">
+      <div className="main-content">
+        <section className="section">
+          <div className="section-header">
             <h1>Review</h1>
           </div>
         </section>
-        <section class="section customReview">
-          <div class="section-body">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="commentRplyPdiv">
-                      <div class="commentWrap">
-                        <div class="cmntImgNameDateWrap">
-                          <div class="cmntImg">
-                            <a href="customer_detail.php">
+        <section className="section customReview">
+          <div className="section-body">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="commentRplyPdiv">
+                      <div className="commentWrap">
+                        <div className="cmntImgNameDateWrap">
+                          <div className="cmntImg">
+                            <Link to="/customerdetails">
                               {' '}
                               <img
                                 src="assets/img/user.png"
-                                class=""
+                                className=""
                                 alt=""
                               />{' '}
-                            </a>
+                            </Link>
                           </div>
-                          <div class="cNameDateSpan">
-                            <div class="cNameStarDateTimeWrap">
-                              <span class="cmntName"> Steve Smith</span>
+                          <div className="cNameDateSpan">
+                            <div className="cNameStarDateTimeWrap">
+                              <span className="cmntName"> Steve Smith</span>
                               <div>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
                               </div>
-                              <div class="reviewProductImage">
+                              <div className="reviewProductImage">
                                 <img src="assets/img/car18.png" alt="" />
                               </div>
                             </div>
-                            <div class="fullCommentReplyWrap">
-                              <h2 class="cmntTitle">
+                            <div className="fullCommentReplyWrap">
+                              <h2 className="cmntTitle">
                                 {' '}
                                 Mercedes Benz AMG GT - JR4120{' '}
-                                <span class="cmntdate"> (12-1-2022) </span>{' '}
+                                <span className="cmntdate"> (12-1-2022) </span>{' '}
                                 <span> | </span>{' '}
-                                <span class="cmntdate cmntTime"> 12:30pm </span>{' '}
+                                <span className="cmntdate cmntTime"> 12:30pm </span>{' '}
                               </h2>
-                              <p class="cmntP">
+                              <p className="cmntP">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Praesent et est sollicitudin
                                 nisl suscipit imperdiet. Aenean ornare mattis
@@ -102,22 +103,22 @@ const Review = () => {
                                 Suspendisse felis purus, volutpat sed consequat
                                 vel, aliquam pellentesque nunc.
                               </p>
-                              <div class="commentRplyWrap">
-                                <a class="rplyBtn" onclick="togReply()">
+                              <div className="commentRplyWrap">
+                                <Link to="" className="rplyBtn" onClick={togReply}>
                                   <img
                                     alt=""
                                     src="assets/img/lefticon/rply.png"
                                   />{' '}
                                   Reply
-                                </a>
-                                <div id="postBox" class="postDiv">
+                                </Link>
+                                <div id="postBox" className="postDiv">
                                   <input
                                     type="search"
-                                    class="form-control form-control-sm"
+                                    className="form-control form-control-sm"
                                     placeholder=""
                                   />
-                                  <div class="postBtnDiv">
-                                    <button class="btn btn-primary postBtn">
+                                  <div className="postBtnDiv">
+                                    <button className="btn btn-primary postBtn">
                                       Submit
                                     </button>
                                   </div>
@@ -128,41 +129,42 @@ const Review = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="commentRplyPdiv">
-                      <div class="commentWrap">
-                        <div class="cmntImgNameDateWrap">
-                          <div class="cmntImg">
-                            <a href="customer_detail.php">
+                    <div className="commentRplyPdiv">
+                      <div className="commentWrap">
+                        <div className="cmntImgNameDateWrap">
+                          <div className="cmntImg">
+                            <Link to="/customerdetails">
                               {' '}
                               <img
                                 src="assets/img/users/user-3.png"
-                                class=""
+                                className=""
+                                alt=''
                               />{' '}
-                            </a>
+                            </Link>
                           </div>
-                          <div class="cNameDateSpan">
-                            <div class="cNameStarDateTimeWrap">
-                              <span class="cmntName"> James Doe </span>
+                          <div className="cNameDateSpan">
+                            <div className="cNameStarDateTimeWrap">
+                              <span className="cmntName"> James Doe </span>
                               <div>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
-                                <i class="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
+                                <i className="rateIstarRpage fas fa-star"></i>
                               </div>
-                              <div class="reviewProductImage">
-                                <img src="assets/img/car19.png" />
+                              <div className="reviewProductImage">
+                                <img src="assets/img/car19.png" alt='' />
                               </div>
                             </div>
-                            <div class="fullCommentReplyWrap">
-                              <h2 class="cmntTitle">
+                            <div className="fullCommentReplyWrap">
+                              <h2 className="cmntTitle">
                                 {' '}
                                 Aston Martin Vanquish - JR4227{' '}
-                                <span class="cmntdate"> (12-1-2022) </span>{' '}
+                                <span className="cmntdate"> (12-1-2022) </span>{' '}
                                 <span> | </span>{' '}
-                                <span class="cmntdate cmntTime"> 12:30pm </span>{' '}
+                                <span className="cmntdate cmntTime"> 12:30pm </span>{' '}
                               </h2>
-                              <p class="cmntP">
+                              <p className="cmntP">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Praesent et est sollicitudin
                                 nisl suscipit imperdiet. Aenean ornare mattis
@@ -171,19 +173,19 @@ const Review = () => {
                                 Suspendisse felis purus, volutpat sed consequat
                                 vel, aliquam pellentesque nunc.
                               </p>
-                              <div class="commentRplyWrap">
-                                <a class="rplyBtn" onclick="togReply()">
-                                  <img src="assets/img/lefticon/rply.png" />{' '}
+                              <div className="commentRplyWrap">
+                                <Link className="rplyBtn" onClick={togReply}>
+                                  <img src="assets/img/lefticon/rply.png" alt=''/>{' '}
                                   Reply
-                                </a>
-                                <div id="postBox" class="postDiv">
+                                </Link>
+                                <div id="postBox" className="postDiv">
                                   <input
                                     type="search"
-                                    class="form-control form-control-sm"
+                                    className="form-control form-control-sm"
                                     placeholder=""
                                   />
-                                  <div class="postBtnDiv">
-                                    <button class="btn btn-primary postBtn">
+                                  <div className="postBtnDiv">
+                                    <button className="btn btn-primary postBtn">
                                       Submit
                                     </button>
                                   </div>

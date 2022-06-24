@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
+import { Link } from 'react-router-dom'
 
 const Marketing = () => {
   const css = `
@@ -205,9 +206,9 @@ const Marketing = () => {
                         <td>10%</td>
                         <td>
                           <div className="customActionWrapper">
-                            <a href="#" className="btn btn-icon btn-danger">
+                            <Link to="#" className="btn btn-icon btn-danger">
                               <i className="material-icons reject">close</i>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -222,9 +223,9 @@ const Marketing = () => {
                         <td>7%</td>
                         <td>
                           <div className="customActionWrapper">
-                            <a href="#" className="btn btn-icon btn-danger">
+                            <Link to="#" className="btn btn-icon btn-danger">
                               <i className="material-icons reject">close</i>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -239,9 +240,9 @@ const Marketing = () => {
                         <td>10%</td>
                         <td>
                           <div className="customActionWrapper">
-                            <a href="#" className="btn btn-icon btn-danger">
+                            <Link to="#" className="btn btn-icon btn-danger">
                               <i className="material-icons reject">close</i>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -256,9 +257,9 @@ const Marketing = () => {
                         <td>10%</td>
                         <td>
                           <div className="customActionWrapper">
-                            <a href="#" className="btn btn-icon btn-danger">
+                            <Link to="#" className="btn btn-icon btn-danger">
                               <i className="material-icons reject">close</i>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>
@@ -273,9 +274,9 @@ const Marketing = () => {
                         <td>12%</td>
                         <td>
                           <div className="customActionWrapper">
-                            <a href="#" className="btn btn-icon btn-danger">
+                            <Link to="#" className="btn btn-icon btn-danger">
                               <i className="material-icons reject">close</i>
-                            </a>
+                            </Link>
                           </div>
                         </td>
                       </tr>

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
+import { Link } from "react-router-dom";
 
 const Driver = () => {
   function togClass() {
@@ -33,6 +34,7 @@ const Driver = () => {
 
   return (
     <div>
+      <style>{css}</style>
       <Header />
       <Sidebar />
 
@@ -47,7 +49,7 @@ const Driver = () => {
         <section>
           <div className="row mb20">
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="ccBtnWrap" onclick="togClass()">
+              <div className="ccBtnWrap" onClick={togClass}>
                 <button className="ccBtn" type="button">
                   <img alt="" src="assets/img/lefticon/plus.png" />
                   Add Driver
@@ -216,39 +218,39 @@ const Driver = () => {
                           <td>9123456789</td>
                           <td>test1@gmail.com</td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="driver_detail.php"
+                              <Link
+                                to="driver_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>

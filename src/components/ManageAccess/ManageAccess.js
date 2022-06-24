@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
+import { Link } from 'react-router-dom'
 
 const ManageAccess = () => {
     function togClass() 
@@ -100,16 +101,16 @@ const ManageAccess = () => {
                           <td>Content Manage</td>
                           <td>Dec 10, 2018</td>
                           <td className="actionTD">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               data-toggle="modal"
                               data-target=".bd-example-modal-lg"
                             >
                               <i className="fas fa-edit"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="fas fa-trash-alt"></i>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>

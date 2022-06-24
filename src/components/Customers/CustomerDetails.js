@@ -389,7 +389,7 @@ const CustomerDetails = () => {
                               <div id="image-preview" className="image-preview">
                                  <label for="image-upload" id="image-label">
                                  Upload Passport
-                                 <img src="assets/img/lefticon/upload.png" />
+                                 <img src="assets/img/lefticon/upload.png"  alt=''/>
                                  </label>
                                  <input type="file" name="image" id="image-upload" />
                               </div>

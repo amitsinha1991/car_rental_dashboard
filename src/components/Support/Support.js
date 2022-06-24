@@ -3,6 +3,7 @@ import $ from 'jquery'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Sidebar from '../Sidebar/Sidebar'
+import { Link } from 'react-router-dom'
 
 const Support = () => {
   useEffect(() => {
@@ -244,7 +245,7 @@ const Support = () => {
   `
   return (
     <div>
-        <style>{css}</style>
+      <style>{css}</style>
       <Header />
       <Sidebar />
       <div className="main-content">
@@ -392,12 +393,12 @@ const Support = () => {
                           alt=""
                         />
                         <div className="overflow-hidden ms-3">
-                          <a
-                            href="#"
+                          <Link
+                            to="#"
                             className="text-dark mb-0 h6 d-block text-truncate"
                           >
                             Cristino Murphy
-                          </a>
+                          </Link>
                           <small className="text-muted">
                             <i className="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>{' '}
                             Online
@@ -632,13 +633,13 @@ const Support = () => {
                           />
                         </div>
                         <div className="col-auto">
-                          <a href="#" className="btn btn-icon btn-primary">
+                          <Link to="#" className="btn btn-icon btn-primary">
                             <img
                               src="assets/img/oth/send.png"
                               className="sendArrow"
                               alt=""
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -18,6 +18,9 @@ import Review from "../components/Review/Review";
 import Support from "../components/Support/Support";
 import Profile from "../components/Profile/Profile";
 import ManageAccess from "../components/ManageAccess/ManageAccess";
+import Login from "../components/Login/Login";
+import Forgot from "../components/Login/Forgot";
+import Reset from "../components/Login/Reset";
 
 
 function AllRoutes(){
@@ -41,6 +44,9 @@ function AllRoutes(){
             <Route exact path="/support" caseSensitive={false} element={<Support />} />
             <Route exact path="/profile" caseSensitive={false} element={<Profile />} />
             <Route exact path="/manage-access" caseSensitive={false} element={<ManageAccess />} />
+            <Route exact path="/login" caseSensitive={false} element={<Login />} />
+            <Route exact path="/forgot" caseSensitive={false} element={<Forgot />} />
+            <Route exact path="/reset" caseSensitive={false} element={<Reset />} />
         </Routes>
     )
 }

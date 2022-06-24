@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
 import $ from 'jquery'
+import { Link } from "react-router-dom";
 
 const Customer = () => {
   $(document).ready(function() {
@@ -93,561 +94,561 @@ const Customer = () => {
                       <tbody>
                         <tr>
                           <td>
-                            <a href="#"> 1 </a>
+                            <Link to="#"> 1 </Link>
                           </td>
                           <td>
-                            <a href="#"> Mattew </a>
+                            <Link to="#"> Mattew </Link>
                           </td>
                           <td>
-                            <a href="#"> Wade </a>
+                            <Link to="#"> Wade </Link>
                           </td>
                           <td>
-                            <a href="#"> test@gmail.com </a>
+                            <Link to="#"> test@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 2 </a>
+                            <Link to="#"> 2 </Link>
                           </td>
                           <td>
-                            <a href="#"> Bernard </a>
+                            <Link to="#"> Bernard </Link>
                           </td>
                           <td>
-                            <a href="#"> Smith </a>
+                            <Link to="#"> Smith </Link>
                           </td>
                           <td>
-                            <a href="#"> bsimth74@gmail.com </a>
+                            <Link to="#"> bsimth74@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 3 </a>
+                            <Link to="#"> 3 </Link>
                           </td>
                           <td>
-                            <a href="#"> Katene </a>
+                            <Link to="#"> Katene </Link>
                           </td>
                           <td>
-                            <a href="#"> Clarke </a>
+                            <Link to="#"> Clarke </Link>
                           </td>
                           <td>
-                            <a href="#"> ktclrke74@gmail.com </a>
+                            <Link to="#"> ktclrke74@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 4 </a>
+                            <Link to="#"> 4 </Link>
                           </td>
                           <td>
-                            <a href="#"> Henry </a>
+                            <Link to="#"> Henry </Link>
                           </td>
                           <td>
-                            <a href="#"> Cooper </a>
+                            <Link to="#"> Cooper </Link>
                           </td>
                           <td>
-                            <a href="#"> henrycooper22@gmail.com </a>
+                            <Link to="#"> henrycooper22@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 5 </a>
+                            <Link to="#"> 5 </Link>
                           </td>
                           <td>
-                            <a href="#"> Matt </a>
+                            <Link to="#"> Matt </Link>
                           </td>
                           <td>
-                            <a href="#"> Henry </a>
+                            <Link to="#"> Henry </Link>
                           </td>
                           <td>
-                            <a href="#"> matthenry521@gmail.com </a>
+                            <Link to="#"> matthenry521@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 6 </a>
+                            <Link to="#"> 6 </Link>
                           </td>
                           <td>
-                            <a href="#"> Chad </a>
+                            <Link to="#"> Chad </Link>
                           </td>
                           <td>
-                            <a href="#"> Bowes </a>
+                            <Link to="#"> Bowes </Link>
                           </td>
                           <td>
-                            <a href="#"> chadbowes95@gmail.com </a>
+                            <Link to="#"> chadbowes95@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 7 </a>
+                            <Link to="#"> 7 </Link>
                           </td>
                           <td>
-                            <a href="#"> Tom </a>
+                            <Link to="#"> Tom </Link>
                           </td>
                           <td>
-                            <a href="#"> Latham </a>
+                            <Link to="#"> Latham </Link>
                           </td>
                           <td>
-                            <a href="#"> tomlatham4152@gmail.com </a>
+                            <Link to="#"> tomlatham4152@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 8 </a>
+                            <Link to="#"> 8 </Link>
                           </td>
                           <td>
-                            <a href="#"> Leo </a>
+                            <Link to="#"> Leo </Link>
                           </td>
                           <td>
-                            <a href="#"> Carter </a>
+                            <Link to="#"> Carter </Link>
                           </td>
                           <td>
-                            <a href="#"> leo_carter147@gmail.com </a>
+                            <Link to="#"> leo_carter147@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 9 </a>
+                            <Link to="#"> 9 </Link>
                           </td>
                           <td>
-                            <a href="#"> Daryl </a>
+                            <Link to="#"> Daryl </Link>
                           </td>
                           <td>
-                            <a href="#"> Mitchell </a>
+                            <Link to="#"> Mitchell </Link>
                           </td>
                           <td>
-                            <a href="#"> daryl_mitch786@gmail.com </a>
+                            <Link to="#"> daryl_mitch786@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#"> 10 </a>
+                            <Link to="#"> 10 </Link>
                           </td>
                           <td>
-                            <a href="#"> Todd </a>
+                            <Link to="#"> Todd </Link>
                           </td>
                           <td>
-                            <a href="#"> Astle </a>
+                            <Link to="#"> Astle </Link>
                           </td>
                           <td>
-                            <a href="#"> todd_astle_14@gmail.com </a>
+                            <Link to="#"> todd_astle_14@gmail.com </Link>
                           </td>
                           <td>
-                            <a href="#"> 9123456789 </a>
+                            <Link to="#"> 9123456789 </Link>
                           </td>
                           <td>
-                            <a href="#"> Dubai </a>
+                            <Link to="#"> Dubai </Link>
                           </td>
                           <td>
-                            <a className="passp_a_wrap" href="#">
+                            <Link className="passp_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/passport.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a className="licn_a_wrap" href="#">
+                            <Link className="licn_a_wrap" to="#">
                               <img
                                 alt=""
                                 className="docImgIcon"
                                 src="assets/img/oth/license.svg"
                               />
-                            </a>
+                            </Link>
                           </td>
                           <td className="actionTD actionSicon">
                             <div className="customActionWrapper dlAction">
-                              <a
-                                href="customer_detail.php"
+                              <Link
+                                to="customer_detail.php"
                                 className="btn btn-icon btn-danger"
                               >
                                 <i className="far fa-eye"></i>
-                              </a>
-                              <a
-                                href="#"
+                              </Link>
+                              <Link
+                                to="#"
                                 className="btn btn-icon btn-danger"
                                 data-toggle="modal"
                                 data-target="#basicModal"
                               >
                                 <i className="fas fa-trash-alt"></i>
-                              </a>
+                              </Link>
                             </div>
                           </td>
                         </tr>

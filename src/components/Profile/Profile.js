@@ -95,7 +95,7 @@ const Profile = () => {
                           <div className="dDetail brandLogoProfile">
                             {' '}
                             <img
-                              alt="image"
+                              alt=""
                               src="assets/img/logo.png"
                               className="brandLogoProfileImg"
                             />{' '}

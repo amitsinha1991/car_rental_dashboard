@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
+import { Link } from "react-router-dom";
 
 const Rides = () => {
 
@@ -240,9 +241,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -264,9 +265,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -288,9 +289,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -312,9 +313,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -336,9 +337,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -360,9 +361,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -384,9 +385,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -408,9 +409,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -432,9 +433,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>
@@ -492,9 +493,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -514,9 +515,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -536,9 +537,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -558,9 +559,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -580,9 +581,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -602,9 +603,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -624,9 +625,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -646,9 +647,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -668,9 +669,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -690,9 +691,9 @@ const Rides = () => {
                             </select>
                           </td>
                           <td>
-                            <a href="map.php">
+                            <Link to="map.php">
                               Villa 6, The Terraces, Jumeirah, Dubai
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>
@@ -739,17 +740,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -760,17 +761,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -781,17 +782,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -802,17 +803,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -823,17 +824,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -844,17 +845,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -865,17 +866,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -886,17 +887,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -907,17 +908,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -928,17 +929,17 @@ const Rides = () => {
                           <td>11 Dec 2021, 12:30pm</td>
                           <td>1w 2d 5h</td>
                           <td className="actionWrap">
-                            <a href="#" className="btn btn-warning wrnLine">
+                            <Link to="#" className="btn btn-warning wrnLine">
                               Claim
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              to="#"
                               className="btn btn-warning hOutline"
                               data-toggle="modal"
                               data-target="#centerModal"
                             >
                               Release
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>

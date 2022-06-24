@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
+import { Link } from "react-router-dom";
 
 const Garage = () => {
     function togClass() 
@@ -61,7 +62,8 @@ const Garage = () => {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="ccBtnWrap" onClick={togClass}>
                 <button className="ccBtn" type="button">
-                  <img alt="" src="assets/img/lefticon/plus.png" />
+                  <img
+                  alt="" src="assets/img/lefticon/plus.png" />
                   Add New Car
                 </button>
               </div>
@@ -122,7 +124,8 @@ const Garage = () => {
                           <div id="image-preview" className="image-preview">
                             <label for="image-upload" id="image-label">
                               Upload car sound
-                              <img alt="" src="assets/img/lefticon/upload.png" />
+                              <img
+                              alt="" src="assets/img/lefticon/upload.png" />
                             </label>
                             <input type="file" name="image" id="image-upload" />
                           </div>
@@ -544,23 +547,23 @@ const Garage = () => {
                           <td>aed 1300</td>
                           <td>13.4kmpl</td>
                           <td className="actionTD">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               onClick={openDD}
                               data-toggle="modal_stop"
                               data-target=".bd-example-modal-lg"
                             >
                               <i className="fas fa-edit"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-pause-circle"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-copy"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="fas fa-trash-alt"></i>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -580,23 +583,23 @@ const Garage = () => {
                           <td>aed 1300</td>
                           <td>13.4kmpl</td>
                           <td className="actionTD">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               onClick={openDD}
                               data-toggle="modal_stop"
                               data-target=".bd-example-modal-lg"
                             >
                               <i className="fas fa-edit"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-pause-circle"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-copy"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="fas fa-trash-alt"></i>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -616,23 +619,23 @@ const Garage = () => {
                           <td>aed 1300</td>
                           <td>13.4kmpl</td>
                           <td className="actionTD">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               onClick={openDD}
                               data-toggle="modal_stop"
                               data-target=".bd-example-modal-lg"
                             >
                               <i className="fas fa-edit"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-pause-circle"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-copy"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="fas fa-trash-alt"></i>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                         <tr>
@@ -652,23 +655,23 @@ const Garage = () => {
                           <td>aed 1300</td>
                           <td>13.4kmpl</td>
                           <td className="actionTD">
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               onClick={openDD}
                               data-toggle="modal_stop"
                               data-target=".bd-example-modal-lg"
                             >
                               <i className="fas fa-edit"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-pause-circle"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="far fa-copy"></i>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link to="#">
                               <i className="fas fa-trash-alt"></i>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       </tbody>
@@ -696,6 +699,7 @@ const Garage = () => {
                   <div className="col-md-6" iii>
                     <div className=" car-img">
                       <img
+                      alt=""
                         src="assets/img/modal-car.jpg"
                         className="img-fluid"
                       />
@@ -840,9 +844,9 @@ const Garage = () => {
       </section>
 
       <div id="mySideDD" className="sideOpen">
-        <a href="javascript:void(0)" className="closebtn" onClick={closeDD}>
+        <Link to="javascript:void(0)" className="closebtn" onClick={closeDD}>
           &times;
-        </a>
+        </Link>
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
